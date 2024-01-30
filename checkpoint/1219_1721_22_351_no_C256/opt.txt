@@ -1,0 +1,49 @@
+==> Args:
+  actions: *
+  architecture: 3,3,3,3,3
+  batch_size: 256
+  channel: 256
+  checkpoint: checkpoint/1219_1721_22_351_no_C256
+  crop_uv: 0
+  d_hid: 512
+  data_augmentation: True
+  dataset: data_train_3dhp
+  debug: False
+  downsample: 1
+  frames: 351
+  gpu: 0
+  in_channels: 2
+  keypoints: cpn_ft_h36m_dbb
+  large_decay_epoch: 5
+  layers: 3
+  local_rank: -1
+  lr: 0.001
+  lr_decay: 0.95
+  lr_decay_large: 0.5
+  lr_refine: 1e-05
+  n_joints: 17
+  nepoch: 50
+  nproc_per_node: 1
+  out_all: 1
+  out_channels: 3
+  out_joints: 17
+  pad: 175
+  previous_best_threshold: inf
+  previous_dir: 
+  previous_name: 
+  previous_refine_name: 
+  refine: False
+  refine_reload: False
+  reload: False
+  reverse_augmentation: False
+  root_path: /media/arthur/Data/Human-Posture-Reconstruction/data/
+  stride: 1
+  stride_num: [3, 9, 13]
+  subjects_test: S9,S11
+  subjects_train: S1,S5,S6,S7,S8
+  subset: 1
+  test: 1
+  test_augmentation: True
+  train: True
+  workers: 8
+==> Args:
